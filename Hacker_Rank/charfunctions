@@ -1,0 +1,19 @@
+s = input()
+firstline=False
+secondline=False
+thirdline=False
+fourthline=False
+fifthline=False
+for i in s :
+    ss=i
+    if(ss.isalnum()):
+        firstline=True
+    if(ss.isalpha()):
+        secondline=True
+    if(ss.isdigit()):
+        thirdline=True
+    if(ss.islower()):
+        fourthline=True
+    if(ss.isupper()):
+        fifthline=True
+print(f"{firstline}\n{secondline}\n{thirdline}\n{fourthline}\n{fifthline}")

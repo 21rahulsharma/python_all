@@ -1,0 +1,9 @@
+monthly=[2200,2350,2600,2130,2190]
+print("Extra Spent in Febuary= ",monthly[1]-monthly[0])
+print("Quaterly Expense=",monthly[0]+monthly[1]+monthly[2])
+for element in monthly:
+    if element>2500:
+        print("YES, Spent More Than 2500")
+monthly.append(1980)
+monthly[3]=monthly[3]-200
+print(monthly)

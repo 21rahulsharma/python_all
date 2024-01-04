@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n = int(input("Enter a number"))
+    arr=list(map(int,input("Enter Elements").split()))
+    l=max(arr)
+    _2ndmax=arr[0]
+    for i in arr:
+        if (i>_2ndmax and i<l):
+            _2ndmax=i
+    print(_2ndmax)
+    
